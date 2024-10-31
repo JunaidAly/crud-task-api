@@ -5,14 +5,13 @@ title:{
     minlength:3,
     trim:true
 },
-_listId:{
+_taskListId:{
     type:mongoose.Types.ObjectId,
     required:true
 },
 completed:{
     type:Boolean,
     default:false,
-    required:true
 }
 });
 
